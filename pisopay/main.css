@@ -1,0 +1,202 @@
+*{ 
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#rightSideWrapper {
+	/*Strictly Necessary */
+	width:80%; 
+	float: right;
+
+	/*Aesthetics*/
+
+}
+
+header {
+	/*Strictly Necessary */
+	position: fixed;
+	width: 77%;	
+	height: 100px; /*Adjust the hight to your purposes*/
+	/*Aesthetics*/
+	background: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    z-index: 100;
+    box-shadow: 0 2px 0px rgba(0,0,0,0.12), 0 2px 0px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 5px;
+    margin: 20px;
+    margin-top: 0;
+}
+
+h1{
+   
+    justify-content: center;
+    display: flex;
+    margin-left: 25%;
+   
+}
+
+img{
+
+    width: 10rem;
+    margin: 20px;
+}
+
+.ContentBox{
+	margin-top: 100px; /*The height of the   header*/
+	display:flex;
+	flex-flow: row wrap;
+    background-color: white;
+    
+} 
+
+main {
+    /*Aesthetics*/
+	 padding: 20px;
+     z-index: 1;
+}
+
+main {
+  /*Strictly Necessary */
+  height: 100vh;
+  order: 1;
+  flex: 0 1 100%; 
+	
+}
+
+/* section {
+
+   height: 400px;
+   order: 2;
+   flex: 0 1 100%;
+	
+}
+
+footer {
+ 
+  height: 100px;
+  order: 3;
+  flex: 0 1 100%;
+	
+} */
+
+/* card */
+body {
+    text-align: center;
+  }
+  
+  .card {
+    background: whitesmoke;
+    border-radius: 2px;
+    display: inline-block;
+    height: 300px;
+    margin: 1rem;
+    position: relative;
+    width: 300px;
+
+  }
+  
+  .card-1, .card-2, .card-3{
+    box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 2px 3px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 5px;
+  }
+  
+  .card-1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .card-2:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .card-3:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+
+  /* sidebar */
+  #sidebar {
+	/*Strictly Necessary */
+	position:fixed; 
+	height: 100%;
+	width:20%;
+	margin: 0px;  
+
+  /*Aesthetics*/
+  background: whitesmoke; 
+  
+
+}
+
+  #sidebar li{
+    height: 50px;
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+   
+   
+  }
+  #sidebar li a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.4s ease;
+  }
+  
+  
+#sidebar li a:hover{
+    background: var(--primary-color);
+  }
+  
+  #sidebar li a:hover .icon,
+  #sidebar li a:hover .text{
+    color: var(--sidebar-color);
+    transition: all 0.2s ease;
+  }
+
+  #sidebar li .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 65px;
+    font-size: 30px;
+    padding-left: 13px;
+  }
+
+  .search-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background: var(--primary-color-light);
+    
+  }
+
+  #sidebar .icon{
+      color: black;
+  }
+
+  #sidebar .text{
+      color: black;
+  }
+
+  #sidebar li a:hover{
+    background: var(--primary-color);
+  }
+  
+  #sidebar li a:hover .icon,
+  #sidebar li a:hover .text{
+    color: var(--sidebar-color);
+    transition: all 0.2s ease;
+    
+  }
+
+  
